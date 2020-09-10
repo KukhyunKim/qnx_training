@@ -1,0 +1,10 @@
+STATE=Experimental Release
+INSTALLDIR=aarch64le/bin/
+INSTALLNAME=ipc_server
+NAME=ipc_server
+USER=kukhkim
+HOST=kukhkim-linux
+DATE=2020/09/09-23:58:16-KST
+VERSION=QNX_SDP700
+TAGID=local
+DESCRIPTION=qnx trining test
