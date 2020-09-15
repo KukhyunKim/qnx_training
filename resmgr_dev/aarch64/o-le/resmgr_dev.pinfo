@@ -1,0 +1,10 @@
+STATE=Experimental Release
+INSTALLDIR=aarch64le/bin/
+INSTALLNAME=resmgr_dev
+NAME=resmgr_dev
+USER=kukhkim
+HOST=kukhkim-linux
+DATE=2020/09/14-23:31:43-KST
+VERSION=QNX_SDP700
+TAGID=local
+DESCRIPTION=qnx trining test

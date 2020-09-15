@@ -1,0 +1,429 @@
+
+Allocating common symbols
+Common symbol       size              file
+
+io_funcs            0x110             main.o
+connect_funcs       0x48              main.o
+ioattr              0x88              main.o
+dpp                 0x8               main.o
+rattr               0x28              main.o
+optv                0x4               main.o
+ctp                 0x8               main.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/target/qnx7/aarch64le/lib/crt1.o
+LOAD /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/target/qnx7/aarch64le/lib/crti.o
+LOAD /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//crtbegin.o
+LOAD main.o
+LOAD /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/target/qnx7/aarch64le/lib/libslog2.so
+LOAD /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/install/aarch64le/lib/libgpio_clientS.a
+LOAD /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/install/aarch64le/lib/libpmic_clientS.a
+LOAD /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/install/aarch64le/lib/libspmi_clientS.a
+LOAD /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/install/aarch64le/lib/libgpio_client.so
+LOAD /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/install/aarch64le/lib/libchipinfoS.a
+LOAD /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/install/aarch64le/lib/libdalsysS.a
+LOAD /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/target/qnx7/aarch64le/lib/libslog2.so
+LOAD /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/install/aarch64le/lib/libdalcfgS.a
+LOAD /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/install/aarch64le/lib/libnspinclockcyclesS.a
+LOAD /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/install/aarch64le/lib/libdalconfig.so
+LOAD /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/install/aarch64le/lib/libsmemS.a
+LOAD /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/install/aarch64le/lib/libhwioS.a
+LOAD /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//libgcc.a
+LOAD /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/target/qnx7/aarch64le/lib/libc.so
+LOAD /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/target/qnx7/aarch64le/lib/libcS.a
+LOAD /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//libgcc.a
+LOAD /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//crtend.o
+LOAD /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/target/qnx7/aarch64le/lib/crtn.o
+                [!provide]                        PROVIDE (__executable_start, 0x0)
+                0x0000000000000200                . = (0x0 + SIZEOF_HEADERS)
+
+.interp         0x0000000000000200       0x17
+ *(.interp)
+ .interp        0x0000000000000200       0x17 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/target/qnx7/aarch64le/lib/crt1.o
+
+.note           0x0000000000000217       0x18
+ .note          0x0000000000000217       0x18 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/target/qnx7/aarch64le/lib/crtn.o
+
+.note.gnu.build-id
+                0x0000000000000230       0x20
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000000000230       0x20 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/target/qnx7/aarch64le/lib/crt1.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x0000000000000250       0x6c
+ *(.gnu.hash)
+ .gnu.hash      0x0000000000000250       0x6c /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/target/qnx7/aarch64le/lib/crt1.o
+
+.dynsym         0x00000000000002c0      0x4c8
+ *(.dynsym)
+ .dynsym        0x00000000000002c0      0x4c8 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/target/qnx7/aarch64le/lib/crt1.o
+
+.dynstr         0x0000000000000788      0x281
+ *(.dynstr)
+ .dynstr        0x0000000000000788      0x281 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/target/qnx7/aarch64le/lib/crt1.o
+
+.gnu.version    0x0000000000000a0a        0x0
+ *(.gnu.version)
+ .gnu.version   0x0000000000000a0a        0x0 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/target/qnx7/aarch64le/lib/crt1.o
+
+.gnu.version_d  0x0000000000000a10        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000a10        0x0 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/target/qnx7/aarch64le/lib/crt1.o
+
+.gnu.version_r  0x0000000000000a10        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000000a10        0x0 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/target/qnx7/aarch64le/lib/crt1.o
+
+.rela.dyn       0x0000000000000a10      0x1c8
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ .rela.data.rel.local
+                0x0000000000000a10       0x30 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/target/qnx7/aarch64le/lib/crt1.o
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x0000000000000a40      0x168 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/target/qnx7/aarch64le/lib/crt1.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rela.ifunc)
+ .rela.ifunc    0x0000000000000ba8        0x0 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/target/qnx7/aarch64le/lib/crt1.o
+ .rela.fini_array
+                0x0000000000000ba8       0x18 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/target/qnx7/aarch64le/lib/crt1.o
+ .rela.init_array
+                0x0000000000000bc0       0x18 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/target/qnx7/aarch64le/lib/crt1.o
+
+.rela.plt       0x0000000000000bd8      0x288
+ *(.rela.plt)
+ .rela.plt      0x0000000000000bd8      0x288 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/target/qnx7/aarch64le/lib/crt1.o
+                [!provide]                        PROVIDE (__rela_iplt_start, .)
+ *(.rela.iplt)
+                [!provide]                        PROVIDE (__rela_iplt_end, .)
+
+.init
+ *(SORT(.init))
+
+.plt            0x0000000000000e60      0x1d0
+ *(.plt)
+ .plt           0x0000000000000e60      0x1d0 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/target/qnx7/aarch64le/lib/crt1.o
+ *(.iplt)
+
+.text           0x0000000000001030      0x624
+                0x0000000000001030                _btext = .
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ .text.startup  0x0000000000001030      0x1b4 main.o
+                0x0000000000001030                main
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x00000000000011e4       0x90 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/target/qnx7/aarch64le/lib/crt1.o
+                0x00000000000011e4                _start
+ .text          0x0000000000001274        0x0 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/target/qnx7/aarch64le/lib/crti.o
+ *fill*         0x0000000000001274        0x4 00000000
+ .text          0x0000000000001278      0x130 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//crtbegin.o
+ .text          0x00000000000013a8      0x2ac main.o
+                0x00000000000013a8                io_open
+                0x000000000000140c                io_read
+                0x00000000000014a0                io_write
+                0x00000000000015c8                options
+ .text          0x0000000000001654        0x0 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//crtend.o
+ .text          0x0000000000001654        0x0 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/target/qnx7/aarch64le/lib/crtn.o
+ *(.gnu.warning)
+
+.fini
+ *(SORT(.fini))
+                [!provide]                        PROVIDE (__etext, .)
+                [!provide]                        PROVIDE (_etext, .)
+                [!provide]                        PROVIDE (etext, .)
+
+.rodata         0x0000000000001654       0xe2
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x0000000000001654       0xe2 main.o
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000001738        0x0
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000001738        0x0 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/target/qnx7/aarch64le/lib/crtn.o
+
+.eh_frame       0x0000000000001738        0x4
+ *(.eh_frame)
+ .eh_frame      0x0000000000001738        0x0 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//crtbegin.o
+ .eh_frame      0x0000000000001738        0x4 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//crtend.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x000000000000173c                . = (ALIGN (0x10000) - ((0x10000 - .) & 0xffff))
+                0x0000000000011ca8                . = DATA_SEGMENT_ALIGN (0x10000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x0000000000011ca8        0x0
+                0x0000000000011ca8                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x0000000000011ca8                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x0000000000011ca8        0x8
+                0x0000000000011ca8                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*) SORT(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x0000000000011ca8        0x8 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//crtbegin.o
+                0x0000000000011cb0                PROVIDE (__init_array_end, .)
+
+.fini_array     0x0000000000011cb0        0x8
+                0x0000000000011cb0                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*) SORT(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x0000000000011cb0        0x8 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//crtbegin.o
+                0x0000000000011cb8                PROVIDE (__fini_array_end, .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+
+.jcr            0x0000000000011cb8        0x8
+ *(.jcr)
+ .jcr           0x0000000000011cb8        0x0 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//crtbegin.o
+ .jcr           0x0000000000011cb8        0x8 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//crtend.o
+
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x0000000000011cc0      0x1d0
+ *(.dynamic)
+ .dynamic       0x0000000000011cc0      0x1d0 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/target/qnx7/aarch64le/lib/crt1.o
+                0x0000000000011cc0                _DYNAMIC
+
+.got            0x0000000000011e90      0x170
+ *(.got.plt)
+ .got.plt       0x0000000000011e90       0xf0 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/target/qnx7/aarch64le/lib/crt1.o
+ *(.igot.plt)
+ *(.got)
+ .got           0x0000000000011f80       0x80 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/target/qnx7/aarch64le/lib/crt1.o
+                0x0000000000011f80                _GLOBAL_OFFSET_TABLE_
+ *(.igot)
+                0x0000000000012000                . = DATA_SEGMENT_RELRO_END (., 0x0)
+
+.data           0x0000000000012000       0x10
+                [!provide]                        PROVIDE (__data_start, .)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000000012000        0x0 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/target/qnx7/aarch64le/lib/crt1.o
+ .data          0x0000000000012000        0x0 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/target/qnx7/aarch64le/lib/crti.o
+ .data          0x0000000000012000        0x0 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//crtbegin.o
+ .data.rel.local
+                0x0000000000012000        0x8 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//crtbegin.o
+                0x0000000000012000                __dso_handle
+ .data          0x0000000000012008        0x0 main.o
+ .data.rel.local
+                0x0000000000012008        0x8 main.o
+                0x0000000000012008                progname
+ .data          0x0000000000012010        0x0 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//crtend.o
+ .data          0x0000000000012010        0x0 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/target/qnx7/aarch64le/lib/crtn.o
+
+.tm_clone_table
+                0x0000000000012010        0x0
+ .tm_clone_table
+                0x0000000000012010        0x0 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//crtbegin.o
+ .tm_clone_table
+                0x0000000000012010        0x0 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//crtend.o
+
+.data1
+ *(.data1)
+                0x0000000000012010                _edata = .
+                [!provide]                        PROVIDE (edata, .)
+                0x0000000000012010                . = .
+                0x0000000000012010                __bss_start = .
+                0x0000000000012010                __bss_start__ = .
+
+.bss            0x0000000000012010      0x258
+ *(.dynbss)
+ .dynbss        0x0000000000012010        0x0 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/target/qnx7/aarch64le/lib/crt1.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000012010        0x0 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/target/qnx7/aarch64le/lib/crt1.o
+ .bss           0x0000000000012010        0x0 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/target/qnx7/aarch64le/lib/crti.o
+ .bss           0x0000000000012010       0x38 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//crtbegin.o
+ .bss           0x0000000000012048        0x0 main.o
+ .bss           0x0000000000012048        0x0 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//crtend.o
+ .bss           0x0000000000012048        0x0 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/target/qnx7/aarch64le/lib/crtn.o
+ *(COMMON)
+ COMMON         0x0000000000012048      0x220 main.o
+                0x0000000000012048                io_funcs
+                0x0000000000012158                connect_funcs
+                0x00000000000121a0                ioattr
+                0x0000000000012228                dpp
+                0x0000000000012230                rattr
+                0x0000000000012258                optv
+                0x0000000000012260                ctp
+                0x0000000000012268                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x0000000000012268                _bss_end__ = .
+                0x0000000000012268                __bss_end__ = .
+                0x0000000000012268                . = ALIGN (0x8)
+                0x0000000000012268                . = SEGMENT_START ("ldata-segment", .)
+                0x0000000000012268                . = ALIGN (0x8)
+                0x0000000000012268                __end__ = .
+                0x0000000000012268                _end = .
+                [!provide]                        PROVIDE (end, .)
+                0x0000000000012268                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x1f
+ *(.comment)
+ .comment       0x0000000000000000       0x1f /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//crtbegin.o
+                                         0x20 (size before relaxing)
+ .comment       0x000000000000001f       0x20 main.o
+ .comment       0x000000000000001f       0x20 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/host/linux/x86_64/usr/lib/gcc/aarch64-unknown-nto-qnx7.0.0/5.4.0//crtend.o
+
+.ident          0x0000000000000000      0x138
+ .ident         0x0000000000000000       0x68 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/target/qnx7/aarch64le/lib/crt1.o
+ .ident         0x0000000000000068       0x68 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/target/qnx7/aarch64le/lib/crti.o
+ .ident         0x00000000000000d0       0x68 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/target/qnx7/aarch64le/lib/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000       0x70
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x30 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/target/qnx7/aarch64le/lib/crt1.o
+ .debug_aranges
+                0x0000000000000030       0x40 main.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x3ba3
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000       0xb6 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/target/qnx7/aarch64le/lib/crt1.o
+ .debug_info    0x00000000000000b6     0x3aed main.o
+
+.debug_abbrev   0x0000000000000000      0x3e1
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x14 /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/target/qnx7/aarch64le/lib/crt1.o
+ .debug_abbrev  0x0000000000000014      0x3cd main.o
+
+.debug_line     0x0000000000000000      0x463
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000       0x9a /usr2/kukhkim/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/qnx_bins/prebuilt_QNX700/target/qnx7/aarch64le/lib/crt1.o
+ .debug_line    0x000000000000009a      0x3c9 main.o
+
+.debug_frame    0x0000000000000000      0x138
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000      0x138 main.o
+
+.debug_str      0x0000000000000000     0x1488
+ *(.debug_str)
+ .debug_str     0x0000000000000000     0x1488 main.o
+                                       0x1741 (size before relaxing)
+
+.debug_loc      0x0000000000000000      0x65c
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0x65c main.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000       0x30
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x30 main.o
+
+.debug_macro
+ *(.debug_macro)
+
+.ARM.attributes
+ *(.ARM.attributes)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(/local2/mnt/workspace/kukhkim/sevkh_02/kukhkim_QXA.QA.5.0.r1-00090-SA8155P.HYP-1_20200601_160158/qnx_ap/test/platform/resmgr_dev/aarch64/o-le/resmgr_dev elf64-littleaarch64)
