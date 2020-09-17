@@ -1,0 +1,10 @@
+STATE=Experimental Release
+INSTALLDIR=aarch64le/bin/
+INSTALLNAME=timer_pulse
+NAME=timer_pulse
+USER=kukhkim
+HOST=kukhkim-linux
+DATE=2020/09/17-01:17:16-KST
+VERSION=QNX_SDP700
+TAGID=local
+DESCRIPTION=qnx trining test
